@@ -1,0 +1,107 @@
+Skip to content
+
+
+  
+Pull requests 
+Issues 
+Marketplace 
+Explore 
+ 
+
+
+Sign out 
+
+
+ Watch 
+6 
+ Star 
+0 
+ Fork 
+1 
+
+DRISHTI-SVNIT/Automated-Check-in-System 
+ Code 
+ Issues 0 
+ Pull requests 0 
+ Projects 0 
+ Wiki 
+ Insights 
+Branch: master 
+Find file 
+Copy path 
+Automated-Check-in-System/CNN/Readme(Imp.) 
+032c9ed 23 hours ago 
+ rishilss99 Create Readme(Imp.) 
+1 contributor 
+ 
+Raw
+Blame
+History
+   
+34 lines (24 sloc) 1.96 KB 
+
+Image_preprocessing.py:
+
+    Contains the code to detect and extract only the faces from the input images.
+
+    
+
+    !!!The datastructure uploaded along with the code is to be strictly!!!
+
+    
+
+    Make the changes accroding to the way you want to access the images in your computer.
+
+    
+
+    1)In case you want to try out with your own images add a folder of your name to the folder : input_data_temp
+
+    2)Eg : (Add a folder john to input_data_temp)
+
+    3)The folder should contain atleast 6 images in well illuminated conditions
+
+    4)No need to worry about the name it will take care of itself
+
+    5)Also make a folder (name : dataset_extracted) in the same folder as input_data_temp
+
+    
+
+Face Recognition(CNN).py:
+
+    Contains the code for the implementation of face recognition using CNN.
+
+    It is not much accurate and might even give you incorrect results as it is in the initial phase.
+
+    
+
+    !!!I have use the updated tensorflow-gpu library with keras in-built for the code as I wanted to utilize my gpu!!!
+
+    !!!In case you don't have a gpu and wish to use the cpu instead (REMOVE tensorflow : eg - tensorflow.keras -> keras)!!!
+
+    
+
+    1)If you want to try it out you just need to add a folder of your name inside the folder(input_data_temp) and add atleast 6 images 
+
+    2)The unknown pic in the folder temp_data can be replaced but you will need to tweak the code in case you are using multiple images
+
+    3)Make sure you have all the libraries pre-installed and working before executing the code
+
+    4)First you need to run Image_preprocessing so that the faces can be extracted,then run Face Recognition(CNN).py
+
+
+
+Datastructure:
+
+    To be strictly followed.
+
+    Some minor tweaks to the data for different paths in you computer might be needed.
+
+    (eg : Change the location of the haar_cascade classifier training set)
+
+    Make sure all the files are in the same location.
+
+   
+
+   ------------------------Will update soon with a more accurate model---------------------------------
+
+ 
